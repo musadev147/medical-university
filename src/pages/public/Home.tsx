@@ -94,6 +94,10 @@ export default function Home() {
 
   return (
     <div className="space-y-16 lg:space-y-24 bg-[#F7F9FC]">
+      <SectionHeader
+        title="Bangladesh Medical University"
+        subtitle="Prestigious Medical Education & Research Hub"
+      />
       {/* Hero Block */}
       <HeroSection />
 
@@ -125,8 +129,8 @@ export default function Home() {
       {/* Pillars / Features Grid */}
       <section className="px-4 max-w-7xl mx-auto">
         <SectionHeader 
-          title="Institutional Pillars"
-          subtitle="Combining elite medical pedagogy, active healthcare science, and modern administrative efficiency."
+          title="Core Foundations"
+          subtitle="Fostering excellence through advanced medical education, groundbreaking research, and operational brilliance."
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feat, i) => {
@@ -157,8 +161,8 @@ export default function Home() {
       {/* Departments Preview Grid */}
       <section className="px-4 max-w-7xl mx-auto">
         <SectionHeader 
-          title="Specialist Pathways"
-          subtitle="Explore our leading departments designed to turn promising students into expert medical practitioners."
+          title="Specialized Departments"
+          subtitle="Discover our premier academic divisions crafted to transform aspiring learners into world-class medical professionals."
         />
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {deptPreviews.map((dept, i) => {
@@ -207,10 +211,10 @@ export default function Home() {
           
           <div className="lg:col-span-6 text-left space-y-6 relative z-10">
             <h2 className="text-3xl lg:text-4xl font-extrabold tracking-tight uppercase leading-tight">
-              A PREMIER HUB OF CLINICAL EXCELLENCE
+              THE APEX OF HEALTHCARE EDUCATION
             </h2>
             <p className="text-slate-300 text-sm md:text-base font-medium leading-relaxed">
-              For over three decades, Bangabandhu Medical University has set standard benchmarks in postgraduate medical pedagogy in Bangladesh. Our students learn in fully equipped research labs, gain extensive exposure in active tertiary clinical sectors, and utilize modern digital tools to advance their studies.
+              For more than 30 years, our institution has been the cornerstone of postgraduate medical training and clinical research in the region. We provide an environment where students thrive in cutting-edge labs, gain hands-on experience in specialized hospital wards, and shape the future of medicine.
             </p>
             <ul className="space-y-4 text-sm font-bold text-blue-200">
               <li className="flex items-center gap-3">
@@ -256,8 +260,8 @@ export default function Home() {
       {/* Testimonials */}
       <section className="px-4 max-w-7xl mx-auto">
         <SectionHeader 
-          title="Student Encounters"
-          subtitle="Read what current students and residents say about their educational journey and portal interaction."
+          title="Voices of Our Scholars"
+          subtitle="Discover inspiring stories and feedback from our brilliant students and dedicated medical residents."
         />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {testimonials.map((test, i) => (
@@ -289,8 +293,8 @@ export default function Home() {
       {/* Latest News */}
       <section className="px-4 max-w-7xl mx-auto">
         <SectionHeader 
-          title="Campus Chronicle"
-          subtitle="Keep up to date with recent developments, academic awards, and upcoming conferences at BMU."
+          title="Latest Institutional Updates"
+          subtitle="Stay informed with our recent announcements, breakthroughs, and upcoming medical symposiums."
         />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {newsItems.map((news, i) => (
@@ -333,8 +337,8 @@ export default function Home() {
       {/* Bangladesh National e-Governance & NIS Services Grid */}
       <section className="px-4 max-w-7xl mx-auto">
         <SectionHeader 
-          title="National e-Governance & University Services"
-          subtitle="Direct access to our statutory compliance charters, healthcare wings, and integrity portals."
+          title="Official Portals & e-Governance"
+          subtitle="Seamless access to our administrative services, compliance guidelines, and national healthcare initiatives."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mt-8">

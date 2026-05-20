@@ -127,7 +127,7 @@ export default function News() {
             layout
             className="grid grid-cols-1 md:grid-cols-2 gap-6"
           >
-            <AnimatePresence mode="wait">
+            <AnimatePresence>
               {filteredNews.map((item) => (
                 <motion.article
                   layout
